@@ -1,0 +1,58 @@
+# Node.js / React
+node_modules/
+frontend/node_modules/
+.next/
+build/
+frontend/build/
+
+# Environment
+.env
+.env.*
+
+# Python
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+ENV/
+.venv/
+
+# Database
+*.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Docker
+*.local
+
+# Coverage / test
+coverage/
+junit.xml
+
+# Misc
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+
+# 🚀 ML Models (IMPORTANT FIX)
+ml_models/
+!ml_models/README.md
